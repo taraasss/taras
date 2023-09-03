@@ -1,0 +1,178 @@
+/* body {
+  font-size: 50px;
+  background-color: yellow;
+} */
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: lightgreen;
+}
+
+p {
+  font-size: 50px;
+  color: blue;
+  text-align: center;
+}
+
+marquee {
+  font-size: 48px;
+  background-color: blue;
+  color: yellow;
+  width: 50%;
+  height: 250px;
+}
+
+div {
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: lightgreen;
+  animation-name: ex1;
+  animation-duration: 5s;
+  position: relative;
+  animation-delay: 1.5s;
+  animation-iteration-count: infinitive;
+  font-size: 15px;
+}
+
+@keyframes ex1 {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: green;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: orange;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: purple;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: yellow;
+    left: 0px;
+    top: 0px;
+  }
+}
+/* 
+section {
+  display: block;
+  width: 500px;
+  height: 500px;
+} */
+
+.animated-div {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  transform-origin: center;
+}
+
+.circle,
+.triangle,
+.square,
+.diamond,
+.heart {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.circle {
+  background-color: #3498db;
+  animation-name: rotateCircle;
+}
+
+.triangle {
+  background-color: #e74c3c;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  animation-name: rotateTriangle;
+}
+
+.square {
+  background-color: #2ecc71;
+  animation-name: rotateSquare;
+}
+
+.diamond {
+  background-color: #f39c12;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  animation-name: rotateDiamond;
+}
+
+.heart {
+  background-color: #e91e63;
+  clip-path: url(#heartPath);
+  animation-name: rotateHeart;
+}
+
+@keyframes rotateCircle {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes rotateTriangle {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes rotateSquare {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes rotateDiamond {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes rotateHeart {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+}

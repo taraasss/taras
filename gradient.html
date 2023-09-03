@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gradient</title>
+    <style type="text/css">
+      body {
+        background-color: #f9999f;
+      }
+      p {
+        font-size: 1in;
+        color: #451245;
+        width: 100vh;
+        text-align: center;
+        background: linear-gradient(grey, yellow, pink, blue);
+      }
+      div {
+        width: 300px;
+        height: 300px;
+        margin: 20px;
+        float: left;
+      }
+      .radial-gradient {
+        background: radial-gradient(
+          circle at 50% 0,
+          red 10px,
+          yellow 30%,
+          #1e90ff 50%
+        );
+      }
+
+      .stacked-linear {
+        background: linear-gradient(
+            127deg,
+            rgba(255, 0, 0, 0.8),
+            rgba(255, 0, 0, 0) 70.71%
+          ),
+          linear-gradient(
+            217deg,
+            rgba(0, 255, 0, 0.8),
+            rgba(0, 255, 0, 0) 70.71%
+          ),
+          linear-gradient(
+            336deg,
+            rgba(0, 0, 255, 0.8),
+            rgba(0, 0, 255, 0) 70.71%
+          );
+      }
+
+      .radial-gradient {
+        background: radial-gradient(
+          circle at 50% 0,
+          red 10px,
+          yellow 30%,
+          #1e90ff 50%
+        );
+      }
+
+      .stacked-radial {
+        background: radial-gradient(
+            circle at 50% 0,
+            rgba(255, 0, 0, 0.5),
+            rgba(255, 0, 0, 0) 70.71%
+          ),
+          radial-gradient(
+            circle at 6.7% 75%,
+            rgba(0, 0, 255, 0.5),
+            rgba(0, 0, 255, 0) 70.71%
+          ),
+          radial-gradient(
+            circle at 93.3% 75%,
+            rgba(0, 255, 0, 0.5),
+            rgba(0, 255, 0, 0) 70.71%
+          ),
+          beige;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Ми вивчаємо градієнти</p>
+    <div style="background: linear-gradient(yellow, blue)"></div>
+    <div style="background: linear-gradient(to left, yellow, blue)"></div>
+    <div style="background: linear-gradient(225deg, yellow, blue)"></div>
+    <div
+      style="background: linear-gradient(225deg, yellow 50%, blue 75%)"
+    ></div>
+    <div
+      style="
+        background: linear-gradient(to bottom, yellow 0% 50%, blue 50% 100%);
+        width: 450px;
+      "
+    ></div>
+    <!-- Флаг Маврикия -->
+    <!-- + документация мдн  -->
+    <div
+      style="background: radial-gradient(yellow 25%, blue); border-radius: 25%"
+    ></div>
+    <div
+      style="background: radial-gradient(circle at 75px, yellow, blue)"
+    ></div>
+    <div
+      style="
+        background: radial-gradient(circle at 0px 150px, yellow, blue);
+        border-radius: 25%;
+      "
+    ></div>
+    <div style="background: conic-gradient(at 10% 10%, yellow, blue)"></div>
+    <div style="background: conic-gradient(at 25% 25%, yellow, blue)"></div>
+    <div
+      style="background: repeating-linear-gradient(yellow 20px, blue 40px)"
+    ></div>
+    <div
+      style="background: repeating-linear-gradient(yellow 10%, blue 20%)"
+    ></div>
+    <div
+      style="
+        background: repeating-radial-gradient(yellow 10% 20%, blue 20% 25%);
+        border-radius: 50%;
+      "
+    ></div>
+    <div
+      style="
+        background: repeating-conic-gradient(
+          yellow 5% 10%,
+          blue 10% 15%,
+          orange 15% 20%
+        );
+      "
+    ></div>
+    <br />
+    <div
+      style="
+        background: linear-gradient(
+          red 0% 25%,
+          blue 25% 50%,
+          yellow 50% 75%,
+          green 75% 100%
+        );
+        width: 450px;
+      "
+    ></div>
+    <div class="radial-gradient" style="width: 200px; height: 200px"></div>
+    <div class="stacked-linear" style="width: 200px; height: 200px"></div>
+    <div class="radial-gradient" style="width: 200px; height: 200px"></div>
+    <div class="stacked-radial" style="width: 200px; height: 200px"></div>
+  </body>
+</html>

@@ -1,0 +1,103 @@
+body {
+  background-color: gray;
+}
+
+p {
+  font-size: 48pt;
+}
+
+.p1 {
+  color: white;
+  text-align: center;
+  background: linear-gradient(to left, red, violet, blue);
+}
+
+.p2 {
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+.p3 {
+  font-family: cursive;
+  text-shadow: 0px 0px 5px violet, 0 0 10px lime;
+}
+.p4 {
+  font-family: fantasy;
+  text-shadow: 5px 5px 5px red;
+}
+.p5 {
+  font-family: "Borel", cursive;
+  text-shadow: -2px 2px blue;
+}
+
+.p6 {
+  font-family: "Handjet", cursive;
+  text-shadow: 2px 2px green;
+}
+
+.p7 {
+  font-family: "Kanit", sans-serif;
+  text-shadow: 2px 2px orange;
+}
+
+.example1 {
+  color: red;
+}
+
+.example2 {
+  font-size: 20px;
+}
+
+.example3 {
+  font-weight: bold;
+}
+
+.example4 {
+  font-style: italic;
+}
+
+.example5 {
+  text-decoration: underline;
+}
+
+.example6 {
+  text-decoration: overline;
+}
+
+.example7 {
+  text-decoration: line-through;
+}
+
+.example8 {
+  text-decoration: underline double;
+}
+
+.example9 {
+  text-decoration: blink;
+}
+
+.example10 {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+}
+
+.example11 {
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+
+.example12 {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+.example13 {
+  text-align: center;
+}
+
+.example14 {
+  text-align: right;
+}
+
+.example15 {
+  text-align: justify;
+}

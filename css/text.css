@@ -1,0 +1,39 @@
+h1 {
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+h2 {
+  text-align: left;
+}
+h3 {
+  text-transform: capitalize;
+}
+
+p {
+  text-align: justify;
+  text-indent: 20px;
+}
+.imgLorem {
+  border: solid 1px gray;
+  height: 100px;
+  width: 100px;
+}
+.map {
+  float: right;
+}
+
+a:hover {
+  text-decoration-line: none;
+}
+a:visited {
+  color: orange;
+}
+.rights p {
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+}

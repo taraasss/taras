@@ -1,0 +1,62 @@
+body {
+  background-color: violet;
+}
+p {
+  font-size: 50px;
+  color: purple;
+  text-align: center;
+}
+
+table {
+  border: double 5px purple;
+  border-collapse: separate;
+  margin: auto;
+}
+th,
+td {
+  border: solid 2px hotpink;
+  width: 25%;
+  font-size: 25px;
+  height: 1cm;
+}
+
+tr:hover {
+  background-color: lightgrey;
+}
+
+td:hover {
+  background-image: url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3dqZW4zZDYwYzN3bGg4NTFtZDQxeXF3cjBleXU5Y3ZybGVjNnJlMyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/xThuWcaa4U4XZQDgvm/giphy.gif);
+  text-transform: uppercase;
+  text-align: center;
+  color: purple;
+  font-weight: 700;
+  font-size: 2em;
+  background-size: cover;
+}
+
+tr:nth-child(even) {
+  background-color: lightpink;
+}
+tr:nth-child(odd) {
+  background-color: lightSalmon;
+}
+.sb {
+  border: dashed 2px red;
+  text-align: right;
+  vertical-align: bottom;
+}
+caption {
+  font-size: 48px;
+  color: purple;
+  background: linear-gradient(
+    to left,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    Indigo,
+    violet
+  );
+  font-weight: 900;
+}

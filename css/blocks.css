@@ -1,0 +1,161 @@
+body {
+  background: linear-gradient(to left, yellow, blue);
+}
+
+p {
+  font-size: 50px;
+  background-color: black;
+  color: red;
+  /* text-align: center; */
+}
+
+.btn1 {
+  font-size: 24px;
+  font-family: monospace;
+  background-color: black;
+  color: red;
+  border: double 10px red;
+}
+
+.btn1:hover {
+  background-color: red;
+  color: black;
+  border: double 10px black;
+  box-shadow: 5px -5px darkred;
+}
+
+/* CSS */
+.button-89 {
+  --b: 3px; /* border thickness */
+  --s: 0.45em; /* size of the corner */
+  --color: #373b44;
+
+  padding: calc(0.5em + var(--s)) calc(0.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background: conic-gradient(
+      from 90deg at var(--b) var(--b),
+      #0000 90deg,
+      var(--color) 0
+    )
+    var(--_p) var(--_p) / calc(100% - var(--b) - 2 * var(--_p))
+    calc(100% - var(--b) - 2 * var(--_p));
+  transition: 0.3s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #0000;
+  outline-offset: 0.6em;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-89:hover,
+.button-89:focus-visible {
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: 0.05em;
+}
+
+.button-89:active {
+  background: var(--color);
+  color: #fff;
+}
+
+.white {
+  display: inline-block;
+  background-color: lightgreen;
+}
+
+.ex1 {
+  display: inline-block;
+  font-size: 24px;
+  color: orange;
+  border: dotted 10px orange;
+}
+span {
+  border: dashed 4px pink;
+  display: block;
+}
+li {
+  list-style-type: none;
+  border: ridge 5px lime;
+  display: inline-block;
+  background: yellow;
+}
+a {
+  text-decoration: none;
+}
+a:active {
+  color: red;
+}
+a:hover {
+  color: white;
+}
+#block1 {
+  width: 500px;
+  height: 500px;
+  background-color: yellow;
+  border: groove 20px blue;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#block2 {
+  width: 700px;
+  height: 700px;
+  background-color: pink;
+  padding: 50px;
+}
+#block3,
+#block4 {
+  width: 900px;
+  height: 200px;
+  background-color: orange;
+  margin: 25px;
+}
+#block3 {
+  border-color: red orange green purple;
+  border-width: 20px;
+  border-style: solid;
+}
+#block4 {
+  border-color: red orange green purple;
+  border-width: 20px;
+  border-style: dotted;
+}
+/* блок як на крартинці */
+.square {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  margin: 10px; /* пространство между квадратами */
+  background-color: white;
+}
+
+.square .inner-square {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+  border: 2px solid blue;
+}
+
+.square .inner-square .inner-inner-square {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgreen;
+  border: 2px solid green;
+}

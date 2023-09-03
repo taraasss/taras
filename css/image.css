@@ -1,0 +1,46 @@
+p {
+  font-size: 0.5in;
+  background-image: url(https://img.freepik.com/free-photo/top-view-background-beautiful-white-grey-brown-cream-blue-background_140725-72219.jpg);
+  background-size: cover;
+}
+
+body {
+  background-color: lightblue;
+  background-image: url(https://i.gifer.com/XOsX.gif);
+  background-repeat: no-repeat;
+  background-size: 222px;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.ft {
+  width: 700px;
+  height: 700px;
+  background-image: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg);
+  background-size: cover;
+}
+
+.sd {
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(rgba(255, 255, 0, 0.5), rgba(0, 0, 255, 0.5)),
+    url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg);
+  background-size: cover;
+  box-shadow: 10px -10px 50px purple;
+}
+img {
+  width: 500px;
+  height: 500px;
+}
+.sm {
+  display: block;
+  margin: auto;
+  border-radius: 30%;
+  box-shadow: 10px -10px 50px lightgreen;
+  width: 50%;
+}
+
+div,
+img {
+  margin: 25px;
+}

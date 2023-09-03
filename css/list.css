@@ -1,0 +1,46 @@
+body {
+  background-color: lightgreen;
+}
+
+p {
+  font-size: 50px;
+  text-align: center;
+  color: hotpink;
+}
+
+ul,
+ol {
+  color: hotpink;
+  font-size: 24px;
+  margin-left: 50px;
+}
+
+.fl li::marker {
+  color: red;
+  font-size: 1.5em;
+}
+
+@counter-style circled-digits {
+  system: fixed;
+  symbols: 😀 👻 👽 👾 🤖 🎃 😹 👋 👀 💋;
+  suffix: " ";
+}
+
+ul.cd {
+  list-style: circled-digits;
+}
+
+.ul1 li {
+  list-style-position: inside;
+  list-style-image: url("data:image/gif;base64,R0lGODdhBQAFAPABAP////8AACwAAAAABQAFAAACCARihhe9q0wBADs=");
+}
+
+@counter-style circled-digits1 {
+  system: fixed;
+  symbols: 😋 😎 🤑 😡 🤢 🤡 🥳 👻 ☠ 🐵 🐶 🐱 🦁;
+  suffix: " ";
+}
+
+.ul2 li {
+  list-style: circled-digits1;
+}
